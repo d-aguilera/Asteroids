@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asteroids.WinFormsApp", "WinFormsApp\Asteroids.WinFormsApp.csproj", "{9EAB6F86-99F1-4DA6-AEEC-C4CC3E524E62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asteroids.Core", "Core\Asteroids.Core.csproj", "{464BD98B-1365-4399-9009-B2A742680246}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asteroids.GameLoop", "GameLoop\Asteroids.GameLoop.csproj", "{1E3C5766-B4B4-455D-8E34-26DC965BC4C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{9DAAA1A4-2378-4554-9CDE-BB2381553377}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\System.Drawing.GraphicsD.dll = Assemblies\System.Drawing.GraphicsD.dll
+		Assemblies\System.DrawingD.dll = Assemblies\System.DrawingD.dll
+		Assemblies\System.NumericsD.dll = Assemblies\System.NumericsD.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAB6F86-99F1-4DA6-AEEC-C4CC3E524E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAB6F86-99F1-4DA6-AEEC-C4CC3E524E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAB6F86-99F1-4DA6-AEEC-C4CC3E524E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAB6F86-99F1-4DA6-AEEC-C4CC3E524E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464BD98B-1365-4399-9009-B2A742680246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464BD98B-1365-4399-9009-B2A742680246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464BD98B-1365-4399-9009-B2A742680246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464BD98B-1365-4399-9009-B2A742680246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3C5766-B4B4-455D-8E34-26DC965BC4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3C5766-B4B4-455D-8E34-26DC965BC4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3C5766-B4B4-455D-8E34-26DC965BC4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3C5766-B4B4-455D-8E34-26DC965BC4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70B65DF-DF12-4FA1-BC37-1B35DE58D11F}
+	EndGlobalSection
+EndGlobal

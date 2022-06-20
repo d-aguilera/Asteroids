@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <NoWarn>1701;1702;CA1416</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameLoop\Asteroids.GameLoop.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.DrawingD">
+      <HintPath>..\Assemblies\System.DrawingD.dll</HintPath>
+    </Reference>
+    <Reference Include="System.NumericsD">
+      <HintPath>..\Assemblies\System.NumericsD.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
